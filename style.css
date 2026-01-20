@@ -1,0 +1,151 @@
+.nav{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    list-style-type: none;
+    margin-top: 5vh;
+    padding: 0;
+}
+
+.nav a,
+.nav a:visited,
+.nav a:hover,
+.nav a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: black;
+}
+
+.name{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.name h1{
+    color: white;
+    font-size: 150px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+}
+
+.name p{
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(29);
+}
+
+.skills{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 105px;
+    margin-bottom: 200px;
+}
+
+.skills li{
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    font-size: 50px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+    width: 380px;
+    text-align: center;
+}
+
+.skills .algo{
+    height: 75px;
+}
+
+@keyframes typing{
+    from{width: 0px;}
+    to{width: 29ch;}
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 300px;
+}
+
+.projects li a,
+.projects li a:visited
+.projects li a:hover
+.projects li a:active{
+    color: white;
+
+}
+
+.projects li{
+    list-style-type: none;
+    color: white;
+    font-size: 50px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 450px;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 300px;
+}
+
+.contact p{
+    color: white;
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer p{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
